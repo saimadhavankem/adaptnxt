@@ -1,0 +1,21 @@
+.nav-bar {
+  background-color: #ffffff;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 19px;
+  box-shadow: 0px 19px 25px -22px rgba(0, 0, 0, 0.45);
+}
+.nav-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.nav-text {
+  font-family: "Roboto";
+  color: #000000;
+  font-size: 13px;
+}
