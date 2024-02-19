@@ -1,0 +1,27 @@
+.btn-design {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px 20px;
+  margin-top: 5px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 5px;
+  width: 90%;
+}
+.d-board-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 11px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.detail-image {
+  height: 15px;
+  width: 15px;
+}
+.active-btn-design {
+  background-color: #b6faf9;
+}

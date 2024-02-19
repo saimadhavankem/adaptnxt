@@ -1,6 +1,6 @@
 .nav-bar {
   background-color: #ffffff;
-  height: 10vh;
+  height: 8vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -15,7 +15,13 @@
   align-items: center;
 }
 .nav-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #000000;
-  font-size: 13px;
+  font-size: 18px;
+  margin-right: 22px;
+}
+.icon-size {
+  height: 20px;
+  width: 18px;
+  margin-left: 22px;
 }

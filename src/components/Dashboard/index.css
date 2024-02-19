@@ -1,23 +1,12 @@
 .d-board-container {
-  width: 180px;
+  width: 220px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding-left: 1px;
 }
-
-.btn-design {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 3px 20px;
-  margin-top: 5px;
-}
-.d-board-text {
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  color: #000000;
-  padding-left: 11px;
-  margin-top: 6px;
-  margin-bottom: 6px;
+ul {
+  margin-left: 1px;
+  padding-left: 2px;
 }
