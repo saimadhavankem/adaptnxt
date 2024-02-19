@@ -1,13 +1,13 @@
 import Header from "./components/Header";
-import DashBoard from "./components/Dashboard";
-import DetailPage from "./components/DetailPage";
+import NavigationBar from "./components/NavigationBar";
+import OrderTab from "./components/OrderTab";
 import "./App.css";
 const App = () => (
   <div className="bg-container">
     <Header />
     <div className="bg-page">
-      <DashBoard />
-      <DetailPage />
+      <NavigationBar />
+      <OrderTab />
     </div>
   </div>
 );

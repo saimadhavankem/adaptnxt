@@ -17,7 +17,7 @@ const actions = [
   { id: "a7", value: "Cancelled" },
 ];
 
-class DetailPage extends Component {
+class OrderTab extends Component {
   state = { idText: actions[0].id };
 
   clickText = (id) => {
@@ -167,4 +167,4 @@ class DetailPage extends Component {
   }
 }
 
-export default DetailPage;
+export default OrderTab;

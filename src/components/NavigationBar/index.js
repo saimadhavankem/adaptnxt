@@ -35,7 +35,7 @@ const details = [
   },
 ];
 
-class Dashboard extends Component {
+class NavigationBar extends Component {
   state = {
     activeTabId: details[2].id,
   };
@@ -62,4 +62,4 @@ class Dashboard extends Component {
     );
   }
 }
-export default Dashboard;
+export default NavigationBar;
